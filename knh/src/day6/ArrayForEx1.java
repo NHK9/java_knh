@@ -1,5 +1,7 @@
 package day6;
 
+import java.util.Arrays;
+
 public class ArrayForEx1 {
 
 	public static void main(String[] args) {

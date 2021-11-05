@@ -6,11 +6,11 @@ import java.util.Collections;
 public class ArraySortEx2 {
 
 	public static void main(String[] args) {
-		// ´ÙÀ½°ú °°Àº ¹è¿­ÀÌ ÀÖÀ»¶§ Á¤·ÄÇÏ´Â ÄÚµå ÀÛ¼º
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Úµï¿½ ï¿½Û¼ï¿½
 		int num[]= {1,10,9,3,6,2,3,4};
 		
-		Arrays.sort(num);//¿À¸§Â÷¼ø
-		Arrays.sort(num,0,5);//¿À¸§Â÷¼øÀ¸·Î 0ºÎÅÍ 5¹øÁö±îÁöÁ¤·Ä
+		//Arrays.sort(num);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		Arrays.sort(num,0,5);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ 5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		for(int tmp:num) {
 			System.out.println(tmp);

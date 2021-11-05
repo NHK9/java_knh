@@ -7,9 +7,9 @@ public class MethodGCDEx1 {
 		// 최소 공배수를 구하는 메소드를 정의하고, 호출하여 ''
 	int result = lcm2(3,2);
 	System.out.println(result);
-	result = lcm1(num1,num2);
+	result = lcm1(1,2);
 	System.out.println(result);
-	result = lcm2(num1,num2);
+	result = lcm2(1,2);
 	System.out.println(result);
 	}
 	/* 기능: 두수의 최대 공약수를 알려줌
@@ -48,6 +48,7 @@ public class MethodGCDEx1 {
 				return m;
 			}
 		}
+		return m;
 	}
 	
 }
