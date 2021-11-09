@@ -17,13 +17,13 @@ public class ClassEx3 {
  * 멤버메소드:
  *  - 정보출력기능
  *  */
- class HighSchoolStudent{
+is()는 생성자 안에서 다른 생성자를 불러올때 사용
+		// 단, 생성자 안에서 첫줄에 사용해야한다. class HighSchoolStudent{
 	 String schoolName, name;
 	 int grade, classNum, num;
 	 
 	public HighSchoolStudent() {
-		this("고등학교","",1,1,1); //this()는 생성자 안에서 다른 생성자를 불러올때 사용
-		// 단, 생성자 안에서 첫줄에 사용해야한다. 밑과 같은 결과
+		this("고등학교","",1,1,1); //th 밑과 같은 결과
 		
 		/*schoolName = "고등학교";
 		name = "";
