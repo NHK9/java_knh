@@ -51,3 +51,6 @@ class FolderPhone extends Phone{
 		System.out.println("핸드폰을 접었습니다");
 	}
 }
+class tt extends String{
+	
+}
