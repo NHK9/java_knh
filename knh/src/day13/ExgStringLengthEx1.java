@@ -18,7 +18,7 @@ public class ExgStringLengthEx1 {
 			index = str1.indexOf(search, index);
 			if(index >= 0) {
 				count++;
-				index = index + search.length();
+				index = index + search+.length();
 			}
 		}while(index != -1);
 		System.out.println(str + "에"+ search +"의 갯수 : "+ count);
