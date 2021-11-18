@@ -16,8 +16,9 @@ public class ExeListEx4 {
 			String time = scan.nextLine();
 			System.out.println("할일 : ");
 			String todo = scan.nextLine();
-			ExeToDo todoObj = new ExeToDo(time, todo);
-			todolist.add(todoObj);
+			//ExeToDo todoObj = new ExeToDo(time, todo);
+			//todolist.add(todoObj);
+			todolist.add(new ExeToDo(time, todo));
 		}
 		System.out.println(todolist);
 		scan.close();
