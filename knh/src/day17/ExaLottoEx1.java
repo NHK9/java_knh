@@ -1,8 +1,6 @@
-package day18;
+package day17;
 
 import java.util.*;
-
-import day17.ExeBaseBallEx1;
 
 public class ExaLottoEx1 {
 
